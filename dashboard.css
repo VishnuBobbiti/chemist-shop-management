@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{			
+    
+        background-color:#BAEEEE;
+    display: flex;
+}
+.left {
+    position: sticky;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    height: 100%;
+    flex-basis: 14%;
+    background-color: #222;
+    color: #666;
+    padding: 8px;
+}
+.dash {
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid;
+    font-weight: 900;
+}
+.list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+li {
+    margin: 18px 0;
+    font-size: 22px;
+    font-weight: 700;
+}
+li a {
+    text-decoration: none;
+    color: #666;
+}
+li a:hover {
+    text-decoration: underline;
+    color: #999;
+}
+.med {
+    margin: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.med img {
+    border-radius: 50%;
+    width: 45px;
+    height: 42px;
+}
+.med:hover {
+    transform: scale(1.1);
+    color: #999;
+    text-decoration: underline;
+}
+main{
+    flex-basis: 86%;
+}
+header{
+    background-color: #111;
+    padding: 15px;
+    color: #666;
+}
+.div-cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 280px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    height: 150px;
+    margin: 20px 30px;
+    text-align: center;
+    font-family: arial;
+}
+
+.title {
+    color: grey;
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+button:hover,
+a:hover {
+    opacity: 0.7;
+}
